@@ -10,3 +10,4 @@ class Myresq(HttpUser):
     @task
     def load_FAQ_page(self):
         self.client.get("/faq")
+
