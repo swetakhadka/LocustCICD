@@ -6,8 +6,9 @@ class Myresq(HttpUser):
     @task
     def home_page(self):
         self.client.get("/")
-
     @task
-    def load_FAQ_page(self):
-        self.client.get("/faq")
+    def load_career_page(self):
+        self.client.get("/career")
+
+
 
